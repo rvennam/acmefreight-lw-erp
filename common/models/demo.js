@@ -139,7 +139,8 @@ module.exports = function (Demo) {
       // make a unique guid for the demo environment
       function (demo, callback) {
         winston.info("Generating guid for Demo");
-        demo.guid = makeUniqueSession(demo);
+        // demo.guid = makeUniqueSession(demo);
+        demo.guid = "9999"
         demo.save(function (err, demo) {
           callback(err, demo);
         });
