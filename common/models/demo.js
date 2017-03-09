@@ -129,6 +129,17 @@ module.exports = function (Demo) {
     var app = Demo.app;
 
     async.waterfall([
+      function (callback) {
+        Demo.findByGuid("9999", function(err, demo){
+          if (!err) {
+            console.log("returning existing session")
+            cb(err, demo);
+            return;
+          }
+          callback();
+        }
+        )
+      },
       // create a new demo environment
       function (callback) {
         winston.info("Creating new Demo instance");
@@ -139,7 +150,8 @@ module.exports = function (Demo) {
       // make a unique guid for the demo environment
       function (demo, callback) {
         winston.info("Generating guid for Demo");
-        demo.guid = makeUniqueSession(demo);
+        //demo.guid = makeUniqueSession(demo);
+        demo.guid = "9999";
         demo.save(function (err, demo) {
           callback(err, demo);
         });
