@@ -1,14 +1,14 @@
-# Logistics Wizard ERP
+# Acme Freight ERP
 
 | **master** | [![Build Status](https://travis-ci.org/IBM-Bluemix/logistics-wizard-erp.svg?branch=master)](https://travis-ci.org/IBM-Bluemix/logistics-wizard-erp) [![Coverage Status](https://coveralls.io/repos/github/IBM-Bluemix/logistics-wizard-erp/badge.svg?branch=master)](https://coveralls.io/github/IBM-Bluemix/logistics-wizard-erp?branch=master) |
 | ----- | ----- |
 | **dev** | [![Build Status](https://travis-ci.org/IBM-Bluemix/logistics-wizard-erp.svg?branch=dev)](https://travis-ci.org/IBM-Bluemix/logistics-wizard-erp) [![Coverage Status](https://coveralls.io/repos/github/IBM-Bluemix/logistics-wizard-erp/badge.svg?branch=dev)](https://coveralls.io/github/IBM-Bluemix/logistics-wizard-erp?branch=dev)|
 
-This service is part of the larger [Logistics Wizard](https://github.com/IBM-Bluemix/logistics-wizard) project.
+This service is part of the larger [Acme Freight](https://github.com/IBM-Bluemix/logistics-wizard) project.
 
 ## Overview
 
-With the Logistics Wizard app, we focus on the planning and delivery of products from distribution centers to retail locations. The Logistics Wizard ERP service defines a subset of a full ERP system data model and the API to access this system.
+With the Acme Freight app, we focus on the planning and delivery of products from distribution centers to retail locations. The Acme Freight ERP service defines a subset of a full ERP system data model and the API to access this system.
 
 ### API Definition
 
@@ -24,7 +24,7 @@ The API defines the following roles:
 * supply chain manager - can view all data and manage Shipments
 * retail store manager - can view all data except Inventory and Suppliers
 
-### Logistics Wizard ERP Simulator
+### Acme Freight ERP Simulator
 
 This project includes an ERP simulator implementing the API and data models defined above. With the simulator we remove the dependency on a real ERP giving us more flexibility to demonstrate edge cases like connectivity failures.
 
