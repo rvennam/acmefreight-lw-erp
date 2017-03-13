@@ -435,6 +435,7 @@ module.exports = function (Demo) {
   /**
    * Reacts to delete of a demo environment and deletes the associated data and users.
    */
+   /*
   Demo.observe("after delete", function (context, next) {
     if (context.where.id) {
       // delete all objects linked to the demo
@@ -486,6 +487,19 @@ module.exports = function (Demo) {
       next();
     }
   });
+*/
+
+  Demo.deleteNewShipments = function (guid, cb){
+    console.log("Resetting shipments with guid", guid);
+    console.log("Deleting Shipment linked to demo", guid);
+    var model = Demo.ISOLATED_MODELS[2];
+    console.log(model.modelName);
+    model.destroyAll({
+          seed: null
+      }, function(err, info){
+      cb(null, {});
+    });
+  }
 
   /**
    * Deletes the demo environment with the given guid
@@ -523,7 +537,8 @@ module.exports = function (Demo) {
       });
   };
 
-  Demo.remoteMethod("deleteByGuid", {
+//  Demo.remoteMethod("deleteByGuid", {
+    Demo.remoteMethod("deleteNewShipments", {
     description: "Deletes the given demo environment",
     http: {
       path: "/:guid",

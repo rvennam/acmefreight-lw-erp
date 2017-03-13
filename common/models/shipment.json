@@ -38,6 +38,10 @@
     "demoId": {
       "required": true,
       "type": "number"
+    },
+    "seed": {
+      "required": false,
+      "type": "boolean"
     }
   },
   "validations": [],

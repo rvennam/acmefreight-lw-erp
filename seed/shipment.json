@@ -4,7 +4,8 @@
     "status": "NEW",
     "fromId": "2",
     "toId": "201",
-    "estimatedTimeOfArrival": "Thu, 16 Oct 2016"
+    "estimatedTimeOfArrival": "Thu, 16 Oct 2016",
+    "seed": true
   },
   {
     "id": "502",
@@ -19,7 +20,8 @@
       "longitude": -90.02
     },
     "estimatedTimeOfArrival": "Thu, 16 Oct 2016",
-    "lastUpdate": "Thu, 13 Oct 2016 12:15:37 GMT"
+    "lastUpdate": "Thu, 13 Oct 2016 12:15:37 GMT",
+    "seed": true
   },
   {
     "id": "503",
@@ -34,7 +36,8 @@
       "longitude": -119.79
     },
     "estimatedTimeOfArrival": "Thu, 20 Oct 2016",
-    "updatedAt": "Thu, 19 Oct 2016 12:15:37 GMT"
+    "updatedAt": "Thu, 19 Oct 2016 12:15:37 GMT",
+    "seed": true
   },
   {
     "id": "504",
@@ -49,7 +52,8 @@
       "longitude": -115.76
     },
     "estimatedTimeOfArrival": "Thu, 22 Oct 2016",
-    "updatedAt": "Thu, 20 Oct 2016 12:15:37 GMT"
+    "updatedAt": "Thu, 20 Oct 2016 12:15:37 GMT",
+    "seed": true
   },
   {
     "id": "505",
@@ -64,7 +68,8 @@
       "longitude": -96.80
     },
     "estimatedTimeOfArrival": "Thu, 22 Oct 2016",
-    "updatedAt": "Thu, 20 Oct 2016 12:15:37 GMT"
+    "updatedAt": "Thu, 20 Oct 2016 12:15:37 GMT",
+    "seed": true
   },
   {
     "id": "506",
@@ -79,7 +84,8 @@
       "longitude": -73.75
     },
     "estimatedTimeOfArrival": "Thu, 24 Oct 2016",
-    "updatedAt": "Thu, 24 Oct 2016 12:15:37 GMT"
+    "updatedAt": "Thu, 24 Oct 2016 12:15:37 GMT",
+    "seed": true
   },
   {
     "id": "507",
@@ -94,6 +100,7 @@
       "longitude": -73.75
     },
     "estimatedTimeOfArrival": "Thu, 28 Oct 2016",
-    "updatedAt": "Thu, 27 Oct 2016 12:15:37 GMT"
+    "updatedAt": "Thu, 27 Oct 2016 12:15:37 GMT",
+    "seed": true
   }
 ]
