@@ -16,7 +16,8 @@ else
   echo "Using prefix: $PREFIX"
 fi
 
-cf create-service elephantsql turtle ${PREFIX}logistics-wizard-erp-db
+# Don't use DB for now
+# cf create-service elephantsql turtle ${PREFIX}logistics-wizard-erp-db
 if ! cf app $CF_APP; then
   cf push $CF_APP -n $CF_APP -f ${MANIFEST}
 else
