@@ -42,14 +42,14 @@
   {
     "id": "504",
     "status": "IN_TRANSIT",
-    "fromId": "1",
-    "toId": "203",
+    "fromId": "4",
+    "toId": "204",
     "currentLocation": {
-      "city": "Spring Creek",
-      "state": "Nevada",
+      "city": "Springfield",
+      "state": "Colorado",
       "country": "US",
-      "latitude": 40.80,
-      "longitude": -115.76
+      "latitude": 37.80,
+      "longitude": -102.76
     },
     "estimatedTimeOfArrival": "Thu, 22 Oct 2016",
     "updatedAt": "Thu, 20 Oct 2016 12:15:37 GMT",
