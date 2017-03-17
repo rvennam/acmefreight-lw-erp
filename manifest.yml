@@ -3,8 +3,6 @@ declared-services:
   logistics-wizard-erp-db:
     label: elephantsql
     plan: turtle
-services:
-  - logistics-wizard-erp-db
 applications:
   - name: logistics-wizard-erp
     host: logistics-wizard-erp
