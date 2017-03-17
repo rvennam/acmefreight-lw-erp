@@ -50,5 +50,18 @@
     "contact": {
       "name": "Jane Joe"
     }
+  },
+  {
+    "id": "5",
+    "address": {
+      "city": "Minot",
+      "state": "North Dakota",
+      "country": "US",
+      "latitude": 48.23,
+      "longitude": -101.29
+    },
+    "contact": {
+      "name": "Mindy Jackson"
+    }
   }
 ]
